@@ -1,0 +1,17 @@
+function check()
+{ // Bặt tên form là f
+	var tdn =f.TDN.value;
+	var mk =f.MK.value;
+	
+	if(tdn =='')
+	{
+		alert('Tên đăng nhập không được bỏ trống !');
+		return false;
+	}
+	if(mt =='')
+	{
+		alert('Mật khẩu không được bỏ trống !');
+		return false;
+	}
+	return true;
+}
